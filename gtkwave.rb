@@ -13,6 +13,7 @@ class Gtkwave < Formula
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
   depends_on "gtk+3"
+  depends_on "gtk4"
 
   def install
     ENV["DESTDIR"] = "/"
