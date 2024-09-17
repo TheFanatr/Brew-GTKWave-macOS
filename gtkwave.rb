@@ -3,14 +3,14 @@ class Gtkwave < Formula
   homepage "https://gtkwave.github.io/gtkwave/"
   license "GPL-2.0-or-later"
   head "https://github.com/gtkwave/gtkwave.git", branch: "master"
-  revision 5
+  revision 6
 
   depends_on "desktop-file-utils" => :build
   depends_on "shared-mime-info" => :build
   depends_on "gtk-mac-integration"
   depends_on "gobject-introspection"
   depends_on "cmake" => :build
-  depends_on "pango" => :build
+  depends_on "pango"
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
